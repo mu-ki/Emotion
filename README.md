@@ -10,8 +10,8 @@
 
 
 
-![](https://github.com/omar178/Emotion-recognition/blob/master/emotions/2.PNG)
-![](https://github.com/omar178/Emotion-recognition/blob/master/emotions/2.PNG)
+![](https://github.com/mu-ki/Emotion/blob/master/1.png)
+![](https://github.com/mu-ki/Emotion/blob/master/2.png)
 
 
 
