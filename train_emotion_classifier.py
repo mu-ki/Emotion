@@ -7,7 +7,7 @@ from keras.callbacks import ReduceLROnPlateau
 from keras.preprocessing.image import ImageDataGenerator
 from load_and_process import load_dataset
 from load_and_process import preprocess_input
-from models.cnn import mini_XCEPTION
+from cnnmodel.cnn import mini_XCEPTION
 from sklearn.model_selection import train_test_split
 
 # parameters

@@ -3,12 +3,13 @@ import cv2
 import numpy as np
 
 
-dataset_path = 'dataset/daset.csv'
+dataset_path = './dataset/data.csv'
 image_size=(348,348)
 
 def load_dataset():
         data = pd.read_csv(dataset_path)
-        pixels = data['pixels'].tolist()
+        print(data)
+        pixels = data['neutral'].tolist()
         width, height = 148, 148
         faces = []
         for pixel_sequence in pixels:

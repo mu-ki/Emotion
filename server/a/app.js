@@ -9,21 +9,21 @@ $('#datex').change(function(){
 function datedf(date){
     // var date = $('#datex').val();
 $.ajax({
-    url: "http://localhost/a/data.php",
+    url: "http://localhost/Emotion-master/server/a/data.php",
     method: "GET",
     data:{
-'datec':date
+      'datec':date
     },
     success: function(data) {
       // alert('s');
-      // console.log(data);
+      console.log(data);
       var player = ["happy", "sad","neutral","angry" ,"surprised","scared", "disgust"]
       var score = [];
 
       for(var i in data) {
         //player.push(data[i]);
         score.push(data[i].a);
-       // alert(data[i].a);
+       //alert(data[i].a);
       }
 
       // console.log(score);

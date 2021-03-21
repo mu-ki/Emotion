@@ -12,7 +12,7 @@
     <meta name="description" content="This is an example dashboard created using build-in elements and components.">
     <meta name="msapplication-tap-highlight" content="no">
     
-    <link rel="stylesheet" href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link href="./main.css" rel="stylesheet">
 </head>
 
@@ -911,9 +911,8 @@
     <!-- javascript -->
     <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 
-    <script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
     <!-- bootstrap datepicker -->
     <script>

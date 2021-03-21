@@ -76,12 +76,13 @@ while True:
                               (255, 0, 0), 2)
 
     cv2.imshow('Employee Mood Checker', frameClone)
-    # cv2.imshow("Mood Detector", canvas)
+    cv2.imshow("Mood Detector", canvas)
     timeDelay += 1
     if timeDelay == 50:
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
-        sql = "INSERT INTO emotion (emoji) VALUES ({})".format(str(EMOTIONS.index(label)+1))
+        sql = "INSERT INTO emotion (emoji) VALUES ('{}')".format(label)
+        print(sql)
         mycursor.execute(sql)
         mydb.commit()
         print(mycursor.rowcount, "record inserted.")

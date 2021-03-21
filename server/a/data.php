@@ -16,6 +16,7 @@ if(!$mysqli){
 }
 $datepassed = $_GET['datec'];
 
+
 if($datepassed == '0'){
     $query = sprintf("SELECT count(*) as a FROM `emotion` WHERE emoji = 'happy'  ");
     $query1 = sprintf("SELECT count(*) as a FROM `emotion` WHERE emoji = 'sad'   ");
